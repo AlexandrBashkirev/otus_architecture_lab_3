@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C33EB203-CA4D-4BA3-95D0-E5659B6A911D}</ProjectGuid>
+    <ProjectGuid>{42F380AA-2C07-42AA-B779-43BE9CC0D227}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>otus_architecture_lab_3</RootNamespace>
-    <AssemblyName>otus_architecture_lab_3</AssemblyName>
+    <RootNamespace>P1</RootNamespace>
+    <AssemblyName>P1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CmdParser.cs" />
+    <Compile Include="CommandBase.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="IMatrixReader.cs" />
+    <Compile Include="IMatrixWriter.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MatrixReaderTextFile.cs" />
+    <Compile Include="MatrixSumCommand.cs" />
+    <Compile Include="MatrixWriterTextFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

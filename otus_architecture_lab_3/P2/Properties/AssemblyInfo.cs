@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("otus_architecture_lab_3")]
+[assembly: AssemblyTitle("P2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("otus_architecture_lab_3")]
+[assembly: AssemblyProduct("P2")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c33eb203-ca4d-4ba3-95d0-e5659b6a911d")]
+[assembly: Guid("4a9fb37d-832d-4424-8911-b299e2b768b3")]
 
 // Version information for an assembly consists of the following four values:
 //

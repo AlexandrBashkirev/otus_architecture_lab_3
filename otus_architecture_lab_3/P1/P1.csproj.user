@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-fa matrixA.txt -fb matrixB.txt -fr matrixC.txt</StartArguments>
+    <StartWorkingDirectory>E:\repo\otus_architecture\lab3\working_dir\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
