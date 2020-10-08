@@ -7,7 +7,7 @@ namespace P2
     {
         static void Main(string[] args)
         {
-            IMatrixGenerator matrixGenerator = new MatrixGenerator();
+            IMatrixGenerator matrixGenerator = new RandomMatrixGenerator();
 
             Matrix matrixA = matrixGenerator.Generate(3, 3);
             Matrix matrixB = matrixGenerator.Generate(3, 3);

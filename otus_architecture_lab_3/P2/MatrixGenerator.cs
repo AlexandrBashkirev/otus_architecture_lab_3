@@ -3,7 +3,7 @@
 
 namespace P2
 {
-    class MatrixGenerator : IMatrixGenerator
+    class RandomMatrixGenerator : IMatrixGenerator
     {
         public Matrix Generate(int rows, int columns)
         {
