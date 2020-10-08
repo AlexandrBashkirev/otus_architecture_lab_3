@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P2
 {
-    class MatrixSumCommand : CommandBase
+    public class MatrixSumCommand : CommandBase
     {
         #region Variables
 

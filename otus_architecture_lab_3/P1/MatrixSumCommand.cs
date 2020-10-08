@@ -3,7 +3,7 @@
 
 namespace P1
 {
-    class MatrixSumCommand : CommandBase
+    public class MatrixSumCommand : CommandBase
     {
         #region Variables
 
